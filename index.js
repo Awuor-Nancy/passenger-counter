@@ -1,0 +1,22 @@
+// document.getElementById(count-el).innerText=10
+ 
+let countEl = document.getElementById("count-el") // pass in arguments
+
+console.log(countEl)
+
+let count = 0
+
+function increment() {
+    count = count + 1
+    countEl.innerText = count
+}
+
+function save() {
+    console.log(count)
+}
+save()
+ 
+ 
+
+
+ 
