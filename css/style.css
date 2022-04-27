@@ -20,13 +20,14 @@ button {
     border: 6%;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: green;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    padding: 2%;
+    
 }
-
 #increment-btn {
     background: darkred;
 }
